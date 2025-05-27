@@ -46,6 +46,6 @@ en-GB.mod_ollama_chat.ini/sys.ini — Language files
 
 ## Create
 **Joko Supriyanto**  
-[🎥 Video Installation](https://www.youtube.com/watch?v=cJyrLiiLwYU)
+[🎥 Chanel Youtube](https://www.youtube.com/jokovlog)
 🙏 Thanks to [Universitas Siber Muhammadiyah – SiberMu](https://sibermu.ac.id) for testing this module
 
