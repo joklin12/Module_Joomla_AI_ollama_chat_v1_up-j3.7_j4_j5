@@ -44,4 +44,4 @@ tmpl/default.php — HTML output
 chatbox.css / chatbox.js — UI and interactivity
 en-GB.mod_ollama_chat.ini/sys.ini — Language files
 
-
+Video instalation : https://www.youtube.com/watch?v=cJyrLiiLwYU
