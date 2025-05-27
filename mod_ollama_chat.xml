@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.0" client="site" method="upgrade">
+    <name>Ollama Chat Assistant</name>
+    <author>Joko Supriyanto</author>
+    <creationDate>[2025-05-25]</creationDate>
+    <version>1.0.0</version>
+    <description>AI Chat Assistant using Ollama API by Joko Supriyanto</description>
+    <license>GNU General Public License version 2 or later</license>
+     
+         <!-- Update Server Configuration -->
+    <updateservers>
+        <server type="collection" priority="1" name="Ollama Chat Assistant Updates">https://jokovlog.my.id/updates/mod_ollama_chat.xml</server>
+    </updateservers>
+    
+    <languages>
+        <language tag="en-GB">en-GB.mod_ollama_chat.sys.ini</language>
+    </languages>
+
+    <files>
+        <filename module="mod_ollama_chat">mod_ollama_chat.php</filename>
+        <filename>helper.php</filename>
+        <filename>script.js</filename>
+        <folder>tmpl</folder>
+		<filename>chatbox.css</filename>
+		<filename>chatbox.js</filename>
+		<filename>en-GB.mod_ollama_chat.sys.ini</filename>
+    </files>
+
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                 <field name="assistant_name" type="text" default="AI JokoVlog" label="Nama Asisten" description="Enter the name to be displayed for the AI assistant."/>
+                <field name="model" type="text" default="llama3" label="Ollama Model Name" description="Model name as served by Ollama:parameter (e.g., llama3.2:3b, mistral)"/>
+				<field name="api_url" type="text" default="http://localhost:11434" label="Ollama API URL" description="Enter the Ollama API endpoint URL (e.g., http://localhost:11434)" />
+
+            </fieldset>
+        </fields>
+    </config>
+</extension>
+
+
